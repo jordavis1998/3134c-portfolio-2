@@ -18,3 +18,7 @@ INSERT INTO info.customers(customer_id, first_name, last_name, phone, email, str
 INSERT INTO info.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(2, 'Tiffany','Hendrix',NULL,'1tiff@gmail.com','345 Dixie Ave N. ','Bremen','GA',30110);
 INSERT INTO info.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(3, 'Dana','Davis',NULL,'judsond506@lonza.com','2338 Troy Blvd. ','Troy','AL',24901);
 INSERT INTO info.customers(customer_id, first_name, last_name, phone, email, street, city, state, zip_code) VALUES(4, 'Elle','Woods','(916) 381-6003','binga@harvard.edu','3000 Bark Trail ','Beverly Hills','CA',90210);
+
+UPDATE customers
+SET first_name = 'Elle', city= 'Panama City Beach'
+WHERE CustomerID = 4;
