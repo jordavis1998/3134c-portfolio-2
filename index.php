@@ -29,6 +29,8 @@
       <label for="state">State</label>
       <input type="text" id="state" name="state">
       <br>
+      <label for="zip_code">Zip Code</label>
+      <input type="text" id="zip_code" name="zip_code">
     </form>
   </body>
 </html>
