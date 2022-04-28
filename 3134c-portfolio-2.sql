@@ -21,4 +21,6 @@ INSERT INTO info.customers(customer_id, first_name, last_name, phone, email, str
 
 UPDATE customers
 SET first_name = 'Elle', city= 'Panama City Beach'
-WHERE CustomerID = 4;
+WHERE customerID = 4;
+
+DELETE FROM customers WHERE first_name='Olivia';
