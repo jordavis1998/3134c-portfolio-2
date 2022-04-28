@@ -34,7 +34,7 @@
          
         if($connection != null) {
             
-            $query = "SELECT `first_name`, `last_name`, `city`, state FROM `customers`;";
+            $query = "SELECT `first_name`, `last_name`, `city`, state, `zip_code` FROM `customers`;";
             $results = mysqli_query($connection, $query);
 
 
@@ -50,6 +50,7 @@
                 echo($row ["last_name"]);
                 echo($row ["city"]);
                 echo($row ["state"]);
+                echo($row["zip_code"]);
                 echo("</td>");
                 // End the row.
                 echo("</tr>");
